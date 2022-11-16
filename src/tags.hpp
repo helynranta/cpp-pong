@@ -2,7 +2,7 @@
 
 #include <engine.hxx>
 
-namespace lerppana
+namespace lerppana::pong
 {
     enum class tags : core::tag_t
     {

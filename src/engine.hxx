@@ -1,6 +1,6 @@
 #pragma once
 
-#include "template_export.h"
+#include "pong_export.h"
 
 // editor
 #include <plugin.hpp>

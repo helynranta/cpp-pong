@@ -4,9 +4,9 @@
 #include <engine.hxx>
 
 using namespace engine;
-using namespace lerppana;
+using namespace lerppana::pong;
 
-struct TEMPLATE_EXPORT template_plugin : engine::plugin
+struct PONG_EXPORT pong_plugin : engine::plugin
 {
     void addRegistrations(std::shared_ptr<Hypodermic::ContainerBuilder> builder) final
     {
@@ -18,10 +18,10 @@ struct TEMPLATE_EXPORT template_plugin : engine::plugin
         engine::vk::imgui_context::set_shared_imgui_context();
 
 #if ENGINE_ENABLE_EDITOR
-        container->resolve<engine::editor::tag_editor>()->register_tags<lerppana::tags>();
+        container->resolve<engine::editor::tag_editor>()->register_tags<lerppana::pong::tags>();
 #endif
     }
 };
 
-extern "C" TEMPLATE_EXPORT template_plugin plugin;
-template_plugin plugin;
+extern "C" PONG_EXPORT pong_plugin plugin;
+pong_plugin plugin;

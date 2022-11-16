@@ -1,7 +1,7 @@
 {
     "startup_scene":"fs1://scenes/load.scene",
     "name": "template",
-    "dynamic_libraries": ["template"],
+    "dynamic_libraries": ["pong"],
     "data_storages": [
         {
             "name": "fs0",

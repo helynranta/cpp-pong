@@ -2,7 +2,7 @@
 
 #include <engine.hxx>
 
-namespace lerppana
+namespace lerppana::pong
 {
     struct load : core::scene
     {
