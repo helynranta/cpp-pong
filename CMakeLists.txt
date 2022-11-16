@@ -31,3 +31,5 @@ engine_create_launcher(
 )
 
 target_precompile_headers(${PROJECT_NAME} PUBLIC src/engine.hxx)
+
+engine_install_plugin(${PROJECT_NAME})

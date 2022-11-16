@@ -32,10 +32,6 @@
 #include <vk/renderer.hpp>
 #include <vk/pipeline/skybox.hpp>
 
-#ifdef ENGINE_ENABLE_EDITOR
-    #include <editor/tag_editor.hpp>
-#endif
-
 // 3rd party
 #include <glm/glm.hpp>
 #include <glm/gtx/rotate_vector.hpp>

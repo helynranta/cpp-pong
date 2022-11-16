@@ -353,6 +353,7 @@ MigrationBackup/
 cmake-build-debug/
 cmake-build-release/
 .idea
+.run/
 
 # reload-engine
 src/generated/
