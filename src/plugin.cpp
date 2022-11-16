@@ -18,7 +18,7 @@ struct PONG_EXPORT pong_plugin : engine::plugin
         engine::vk::imgui_context::set_shared_imgui_context();
 
 #if ENGINE_ENABLE_EDITOR
-        container->resolve<engine::editor::tag_editor>()->register_tags<lerppana::pong::tags>();
+        container->resolve<engine::editor::tag_editor>()->register_tags<lerppana::pong::tag>();
 #endif
     }
 };

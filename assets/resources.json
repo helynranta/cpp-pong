@@ -1,3 +1,16 @@
 {
-  "nodes" : []
+    "nodes": [
+        {
+            "type": "file",
+            "filename": "scenes/game.scene"
+        },
+        {
+            "type": "file",
+            "filename": "audio/Minimalist2.wav"
+        },
+        {
+            "type": "file",
+            "filename": "audio/Minimalist7.wav"
+        }
+    ]
 }

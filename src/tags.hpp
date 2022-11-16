@@ -4,8 +4,8 @@
 
 namespace lerppana::pong
 {
-    enum class tags : core::tag_t
+    enum class tag : engine::core::tag_t
     {
-        template_tag = 10
+        ball = 255
     };
 }

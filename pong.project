@@ -13,5 +13,11 @@
             "folder_path": "${projectDir}/assets/resources.json"
         }
     ],
-    "fonts": [ ]
+    "fonts": [
+        {
+            "name": "scorefont",
+            "key": "fs0://fonts/gomarice_no_continue.ttf",
+            "size": 64
+        }
+    ]
 }
